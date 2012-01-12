@@ -8,6 +8,19 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+" My manual configurations
+set cindent " turns on C style indentation
+set history=50 " keep 50 commands and 50 search patterns in the history
+set ruler " always display the current cursor position in lower right position
+set showcmd " display an incomplete command in the lower right corner
+set incsearch " display the match for a search pattern when halfway typing it
+syntax on " turns on syntax highlight
+set number " turns on line numbering
+set shiftwidth=4 " set the shift width for shifting operation i.e >
+set mouse=a " enable mouse
+set tabstop=4 " set the size of tab
+
+
 " My Bundles here:
 "
 " original repos on github
