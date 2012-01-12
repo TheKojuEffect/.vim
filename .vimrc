@@ -1,5 +1,5 @@
 set nocompatible " be iMproved
-filetype off " required!
+filetype off " required! for bundle
 
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
@@ -17,15 +17,18 @@ Bundle 'gmarik/vundle'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+" Bundle 'L9'
+" Bundle 'FuzzyFinder'
 
 " non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
-" ...
 
 " ColorScheme
 Bundle 'altercation/vim-colors-solarized'
+
+" FuzzyFinder to navigate through files and directories
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 
 
 filetype plugin indent on "required!
