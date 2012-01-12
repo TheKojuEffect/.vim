@@ -19,7 +19,7 @@ set number " turns on line numbering
 set shiftwidth=4 " set the shift width for shifting operation i.e >
 set mouse=a " enable mouse
 set tabstop=4 " set the size of tab
-
+set clipboard=unnamedplus "enable using system clipboard with register +
 
 " My Bundles here:
 "
