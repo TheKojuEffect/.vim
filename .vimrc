@@ -39,6 +39,9 @@ Bundle 'mru.vim'
 " snipMate plugin for snippets
 Bundle 'snipMate'
 
+" for changing surrounding
+Bundle 'surround.vim'
+
 
 filetype plugin indent on "required!
 
