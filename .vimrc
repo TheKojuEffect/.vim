@@ -30,8 +30,6 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 
-" NERDTree plugin as file explore
-Bundle 'scrooloose/nerdtree'
 
 
 filetype plugin indent on "required!
