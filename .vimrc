@@ -42,6 +42,8 @@ Bundle 'snipMate'
 " for changing surrounding
 Bundle 'surround.vim'
 
+" for repeating command by surround plugin
+Bundle 'repeat.vim'
 
 filetype plugin indent on "required!
 
