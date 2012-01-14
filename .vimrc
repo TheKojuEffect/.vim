@@ -36,6 +36,9 @@ Bundle 'scrooloose/nerdtree'
 " MRU for recently opened files
 Bundle 'mru.vim'
 
+" snipMate plugin for snippets
+Bundle 'snipMate'
+
 
 filetype plugin indent on "required!
 
