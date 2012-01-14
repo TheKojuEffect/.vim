@@ -33,6 +33,10 @@ Bundle 'FuzzyFinder'
 " NERDTree plugin as file explorer
 Bundle 'scrooloose/nerdtree'
 
+" MRU for recently opened files
+Bundle 'mru.vim'
+
+
 filetype plugin indent on "required!
 
 
