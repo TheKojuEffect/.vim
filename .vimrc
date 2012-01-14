@@ -45,6 +45,9 @@ Bundle 'surround.vim'
 " for repeating command by surround plugin
 Bundle 'repeat.vim'
 
+" allows matching with % for other tags
+Bundle 'matchit.zip'
+
 filetype plugin indent on "required!
 
 
