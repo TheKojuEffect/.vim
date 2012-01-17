@@ -36,9 +36,6 @@ Bundle 'scrooloose/nerdtree'
 " MRU for recently opened files
 Bundle 'mru.vim'
 
-" snipMate plugin for snippets
-Bundle 'snipMate'
-
 " for changing surrounding
 Bundle 'surround.vim'
 
@@ -74,3 +71,9 @@ set mouse=a " enable mouse
 set tabstop=4 " set the size of tab
 set clipboard=unnamedplus " enable using system clipboard with register +
 set background=dark " assume the background to be dark to choose color
+set nowrap " disable text wrapping
+set backspace=indent,eol,start
+set shiftround " use multiple of shiftwidth when indenting with '<' and '>'
+set hidden " allows to hide unsaved buffer while opening another file
+set title " change the terminal's title
+set pastetoggle=<F2> " switch to paste mode
