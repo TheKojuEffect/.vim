@@ -45,8 +45,32 @@ Bundle 'repeat.vim'
 " allows matching with % for other tags
 Bundle 'matchit.zip'
 
-filetype plugin indent on "required!
+" snipMate plugin
+" Install dependencies:
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "snipmate-snippets"
+" Install:
+Bundle "garbas/vim-snipmate"
 
+" sparkUp plugin for html editing
+Bundle 'sophacles/vim-bundle-sparkup'
+
+" Autocomplete with popup menu
+Bundle 'AutoComplPop'
+
+" AutoClose quotes and parenthesis
+" Bundle 'AutoClose'
+
+" Autoclose quotes and parenthesis
+Bundle 'delimitMate.vim'
+
+
+" Auto tab completion plugin
+Bundle 'SuperTab'
+
+
+filetype plugin indent on "required!
 
 " Brief help
 " :BundleList		- list configured bundles
@@ -60,6 +84,7 @@ filetype plugin indent on "required!
 
 " My manual configurations
 set cindent " turns on C style indentation
+set smartindent " turns on smartindent
 set history=50 " keep 50 commands and 50 search patterns in the history
 set ruler " always display the current cursor position in lower right position
 set showcmd " display an incomplete command in the lower right corner
@@ -77,3 +102,22 @@ set shiftround " use multiple of shiftwidth when indenting with '<' and '>'
 set hidden " allows to hide unsaved buffer while opening another file
 set title " change the terminal's title
 set pastetoggle=<F2> " switch to paste mode
+set wildmenu " turns on  wildmenu
+set wildmode=list:longest,full
+
+
+" turning on Autocomplete based upon filetype
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+autocmd FileType c set omnifunc=ccomplete#Complete
+
+" CTRL-X to cut
+vnoremap <C-X> "+x
+
+" CTRL-C to copy
+vnoremap <C-C> "+y
+
