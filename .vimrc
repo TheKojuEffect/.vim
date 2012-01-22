@@ -63,7 +63,7 @@ Bundle 'AutoComplPop'
 " Bundle 'AutoClose'
 
 " Autoclose quotes and parenthesis
-Bundle 'delimitMate.vim'
+" Bundle 'delimitMate.vim'
 
 
 " Auto tab completion plugin
@@ -83,8 +83,9 @@ filetype plugin indent on "required!
 
 
 " My manual configurations
-set cindent " turns on C style indentation
-set smartindent " turns on smartindent
+set autoindent " turns on autoindent
+" set cindent " turns on C style indentation
+" set smartindent " turns on smartindent
 set history=50 " keep 50 commands and 50 search patterns in the history
 set ruler " always display the current cursor position in lower right position
 set showcmd " display an incomplete command in the lower right corner
@@ -121,3 +122,9 @@ vnoremap <C-X> "+x
 " CTRL-C to copy
 vnoremap <C-C> "+y
 
+
+" Move around split windows with ctrl key!
+map <C-H> <C-W>h
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
