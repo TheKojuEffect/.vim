@@ -73,13 +73,18 @@ Bundle 'SuperTab'
 Bundle 'Tagbar'
 
 " checks the php code standard
-Bundle 'phpcodesniffer.vim'
+" Bundle 'phpcodesniffer.vim'
 
 " Manual Page Viewer
 " Bundle 'ManPageView'
 
-" Basic php plugin
-Bundle 'php.vim'
+" php integration for vim
+Bundle 'spf13/PIV'
+
+" smarty php-template engine
+Bundle 'vim-scripts/smarty.vim'
+
+
 
 filetype plugin indent on "required!
 
@@ -115,9 +120,9 @@ set hidden " allows to hide unsaved buffer while opening another file
 set title " change the terminal's title
 set pastetoggle=<F2> " switch to paste mode
 set wildmenu " turns on  wildmenu
-set expandtab " use spaces instead of tab
 set wildmode=list:longest,full
-
+set autochdir " set working directory to the current file
+" set expandtab " use spaces instead of tab
 
 " turning on Autocomplete based upon filetype
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -157,3 +162,4 @@ endfunction " }
 set foldtext=SimpleFoldText() " Custom fold text function 
                                " (cleaner than default)
 " }
+
