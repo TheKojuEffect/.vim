@@ -2,6 +2,9 @@ This is my vim configuration files.
 
 <b>Quick Start</b>
 
-git clone github.com/TheKojuEffect/.vim.git
+  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-ln -s .vim/.vimrc .vim
+
+  git clone github.com/TheKojuEffect/.vim.git
+
+  ln -s .vim/.vimrc .vimrc
