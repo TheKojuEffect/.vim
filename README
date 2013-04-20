@@ -1,7 +1,7 @@
 This is my vim configuration files.
 
 Quick Start
------------
+===========
 
 git clone github.com/TheKojuEffect/.vim.git
 ln -s .vim/.vimrc .vim
