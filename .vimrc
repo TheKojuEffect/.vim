@@ -43,7 +43,7 @@ Bundle 'altercation/vim-colors-solarized'
 " Bundle 'repeat.vim'
 
 " allows matching with % for other tags
-Bundle 'matchit.zip'
+" Bundle 'matchit.zip'
 
 " snipMate plugin
 " Install dependencies:
