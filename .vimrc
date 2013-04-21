@@ -27,37 +27,37 @@ Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 
 " FuzzyFinder to navigate through files and directories
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+" Bundle 'L9'
+" Bundle 'FuzzyFinder'
 
 " NERDTree plugin as file explorer
-Bundle 'scrooloose/nerdtree'
+" Bundle 'scrooloose/nerdtree'
 
 " MRU for recently opened files
-Bundle 'mru.vim'
+" Bundle 'mru.vim'
 
 " for changing surrounding
-Bundle 'surround.vim'
+" Bundle 'surround.vim'
 
 " for repeating command by surround plugin
-Bundle 'repeat.vim'
+" Bundle 'repeat.vim'
 
 " allows matching with % for other tags
 Bundle 'matchit.zip'
 
 " snipMate plugin
 " Install dependencies:
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "snipmate-snippets"
+"  Bundle "MarcWeber/vim-addon-mw-utils"
+" Bundle "tomtom/tlib_vim"
+" Bundle "snipmate-snippets"
 " Install:
-Bundle "garbas/vim-snipmate"
+" Bundle "garbas/vim-snipmate"
 
 " sparkUp plugin for html editing
-Bundle 'sophacles/vim-bundle-sparkup'
+" Bundle 'sophacles/vim-bundle-sparkup'
 
 " Autocomplete with popup menu
-Bundle 'AutoComplPop'
+" Bundle 'AutoComplPop'
 
 " AutoClose quotes and parenthesis
 " Bundle 'AutoClose'
@@ -67,24 +67,16 @@ Bundle 'AutoComplPop'
 
 
 " Auto tab completion plugin
-Bundle 'SuperTab'
+" Bundle 'SuperTab'
 
 " display tags of currently opened files by scope
-Bundle 'Tagbar'
+" Bundle 'Tagbar'
 
 " checks the php code standard
 " Bundle 'phpcodesniffer.vim'
 
 " Manual Page Viewer
 " Bundle 'ManPageView'
-
-" php integration for vim
-Bundle 'spf13/PIV'
-
-" smarty php-template engine
-Bundle 'vim-scripts/smarty.vim'
-
-
 
 filetype plugin indent on "required!
 
@@ -145,21 +137,4 @@ map <C-H> <C-W>h
 map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
-
-
-" Folding {
-set foldenable " Turn on folding
-set foldmarker={,} " Fold C style code (only use this as default 
-                    " if you use a high foldlevel)
-set foldmethod=marker " Fold on the marker
-set foldlevel=100 " Don't autofold anything (but I can still 
-                  " fold manually)
-set foldopen=block,hor,mark,percent,quickfix,tag " what movements
-                                                  " open folds 
-function SimpleFoldText() " {
-    return getline(v:foldstart).' '
-endfunction " }
-set foldtext=SimpleFoldText() " Custom fold text function 
-                               " (cleaner than default)
-" }
 
